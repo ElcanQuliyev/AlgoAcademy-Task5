@@ -15,6 +15,8 @@ div.flex {
         padding: 16px;
         border-radius: 12px;
         width: 300px;
+        border: 1px solid black;
+        box-shadow: 15px 15px 0px 0px rgba(0, 0, 0, 0.75);
 
         img {
             width: 100%;
@@ -29,11 +31,13 @@ div.flex {
                 display: inline-block;
                 margin-top: 16px;
                 color: hsl(0, 0%, 7%);
+                border-radius: 8px;
             }
 
             h4 {
-                color: hsl(0, 0%, 7%);
-                font-weight: 800;
+                color: hsl(0, 0%, 50%);
+                ;
+                font-weight: 600;
             }
 
             a.link {
@@ -43,6 +47,10 @@ div.flex {
                 display: inline-block;
                 text-decoration: none;
                 margin: 0px;
+            }
+
+            a.link:hover {
+                color: hsl(47, 88%, 63%);
             }
 
             p {
@@ -64,12 +72,9 @@ div.flex {
 
                 h4 {
                     font-weight: 800;
+                    color: hsl(0, 0%, 7%);
                 }
             }
-        }
-
-        a.link:hover {
-            color: hsl(47, 88%, 63%);
         }
     }
 }
